@@ -1,0 +1,799 @@
+[
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_add",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 2.0463314857893735E7,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.0381286805626143E7,
+                "50.0" : 2.0463314857893735E7,
+                "90.0" : 2.054534291016133E7,
+                "95.0" : 2.054534291016133E7,
+                "99.0" : 2.054534291016133E7,
+                "99.9" : 2.054534291016133E7,
+                "99.99" : 2.054534291016133E7,
+                "99.999" : 2.054534291016133E7,
+                "99.9999" : 2.054534291016133E7,
+                "100.0" : 2.054534291016133E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.054534291016133E7,
+                    2.0381286805626143E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_add",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 1710215.2660702644,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1664794.482467013,
+                "50.0" : 1710215.2660702644,
+                "90.0" : 1755636.0496735158,
+                "95.0" : 1755636.0496735158,
+                "99.0" : 1755636.0496735158,
+                "99.9" : 1755636.0496735158,
+                "99.99" : 1755636.0496735158,
+                "99.999" : 1755636.0496735158,
+                "99.9999" : 1755636.0496735158,
+                "100.0" : 1755636.0496735158
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1664794.482467013,
+                    1755636.0496735158
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_add",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 489930.345085766,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 483572.6256413874,
+                "50.0" : 489930.345085766,
+                "90.0" : 496288.06453014456,
+                "95.0" : 496288.06453014456,
+                "99.0" : 496288.06453014456,
+                "99.9" : 496288.06453014456,
+                "99.99" : 496288.06453014456,
+                "99.999" : 496288.06453014456,
+                "99.9999" : 496288.06453014456,
+                "100.0" : 496288.06453014456
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    496288.06453014456,
+                    483572.6256413874
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_buffer",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 3.513819291443825E7,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.5038713609810844E7,
+                "50.0" : 3.513819291443825E7,
+                "90.0" : 3.523767221906565E7,
+                "95.0" : 3.523767221906565E7,
+                "99.0" : 3.523767221906565E7,
+                "99.9" : 3.523767221906565E7,
+                "99.99" : 3.523767221906565E7,
+                "99.999" : 3.523767221906565E7,
+                "99.9999" : 3.523767221906565E7,
+                "100.0" : 3.523767221906565E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3.5038713609810844E7,
+                    3.523767221906565E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_buffer",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 5715884.58585656,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5474766.760114825,
+                "50.0" : 5715884.58585656,
+                "90.0" : 5957002.411598294,
+                "95.0" : 5957002.411598294,
+                "99.0" : 5957002.411598294,
+                "99.9" : 5957002.411598294,
+                "99.99" : 5957002.411598294,
+                "99.999" : 5957002.411598294,
+                "99.9999" : 5957002.411598294,
+                "100.0" : 5957002.411598294
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5957002.411598294,
+                    5474766.760114825
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_buffer",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 2481157.284502817,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2360370.9946047887,
+                "50.0" : 2481157.284502817,
+                "90.0" : 2601943.574400845,
+                "95.0" : 2601943.574400845,
+                "99.0" : 2601943.574400845,
+                "99.9" : 2601943.574400845,
+                "99.99" : 2601943.574400845,
+                "99.999" : 2601943.574400845,
+                "99.9999" : 2601943.574400845,
+                "100.0" : 2601943.574400845
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2360370.9946047887,
+                    2601943.574400845
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_buffer_size",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 3.1615959710259408E7,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.1517614802620318E7,
+                "50.0" : 3.1615959710259408E7,
+                "90.0" : 3.17143046178985E7,
+                "95.0" : 3.17143046178985E7,
+                "99.0" : 3.17143046178985E7,
+                "99.9" : 3.17143046178985E7,
+                "99.99" : 3.17143046178985E7,
+                "99.999" : 3.17143046178985E7,
+                "99.9999" : 3.17143046178985E7,
+                "100.0" : 3.17143046178985E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3.17143046178985E7,
+                    3.1517614802620318E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_buffer_size",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 5773237.196432856,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5311030.427057741,
+                "50.0" : 5773237.196432856,
+                "90.0" : 6235443.965807971,
+                "95.0" : 6235443.965807971,
+                "99.0" : 6235443.965807971,
+                "99.9" : 6235443.965807971,
+                "99.99" : 6235443.965807971,
+                "99.999" : 6235443.965807971,
+                "99.9999" : 6235443.965807971,
+                "100.0" : 6235443.965807971
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    6235443.965807971,
+                    5311030.427057741
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_buffer_size",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 3312252.7417764124,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3302183.551149821,
+                "50.0" : 3312252.7417764124,
+                "90.0" : 3322321.932403004,
+                "95.0" : 3322321.932403004,
+                "99.0" : 3322321.932403004,
+                "99.9" : 3322321.932403004,
+                "99.99" : 3322321.932403004,
+                "99.999" : 3322321.932403004,
+                "99.9999" : 3322321.932403004,
+                "100.0" : 3322321.932403004
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3302183.551149821,
+                    3322321.932403004
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_builder",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 4.28644733520121E7,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.259529534232679E7,
+                "50.0" : 4.28644733520121E7,
+                "90.0" : 4.31336513616974E7,
+                "95.0" : 4.31336513616974E7,
+                "99.0" : 4.31336513616974E7,
+                "99.9" : 4.31336513616974E7,
+                "99.99" : 4.31336513616974E7,
+                "99.999" : 4.31336513616974E7,
+                "99.9999" : 4.31336513616974E7,
+                "100.0" : 4.31336513616974E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.259529534232679E7,
+                    4.31336513616974E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_builder",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 8227223.248257875,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8023197.271333781,
+                "50.0" : 8227223.248257875,
+                "90.0" : 8431249.225181969,
+                "95.0" : 8431249.225181969,
+                "99.0" : 8431249.225181969,
+                "99.9" : 8431249.225181969,
+                "99.99" : 8431249.225181969,
+                "99.999" : 8431249.225181969,
+                "99.9999" : 8431249.225181969,
+                "100.0" : 8431249.225181969
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    8431249.225181969,
+                    8023197.271333781
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_builder",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 3419966.4111274825,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3402642.0398453404,
+                "50.0" : 3419966.4111274825,
+                "90.0" : 3437290.7824096247,
+                "95.0" : 3437290.7824096247,
+                "99.0" : 3437290.7824096247,
+                "99.9" : 3437290.7824096247,
+                "99.99" : 3437290.7824096247,
+                "99.999" : 3437290.7824096247,
+                "99.9999" : 3437290.7824096247,
+                "100.0" : 3437290.7824096247
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3402642.0398453404,
+                    3437290.7824096247
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_builder_size",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 3.6541849403202415E7,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.497414306866335E7,
+                "50.0" : 3.6541849403202415E7,
+                "90.0" : 3.8109555737741485E7,
+                "95.0" : 3.8109555737741485E7,
+                "99.0" : 3.8109555737741485E7,
+                "99.9" : 3.8109555737741485E7,
+                "99.99" : 3.8109555737741485E7,
+                "99.999" : 3.8109555737741485E7,
+                "99.9999" : 3.8109555737741485E7,
+                "100.0" : 3.8109555737741485E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3.497414306866335E7,
+                    3.8109555737741485E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_builder_size",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 9084070.505503848,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9069556.555475272,
+                "50.0" : 9084070.505503848,
+                "90.0" : 9098584.455532424,
+                "95.0" : 9098584.455532424,
+                "99.0" : 9098584.455532424,
+                "99.9" : 9098584.455532424,
+                "99.99" : 9098584.455532424,
+                "99.999" : 9098584.455532424,
+                "99.9999" : 9098584.455532424,
+                "100.0" : 9098584.455532424
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    9069556.555475272,
+                    9098584.455532424
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.sample.StringAppend.string_builder_size",
+        "mode" : "thrpt",
+        "threads" : 6,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\Program Files\\ideaIC-2022.2.3.win\\lib\\idea_rt.jar=51483:D:\\Program Files\\ideaIC-2022.2.3.win\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_202",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.202-b08",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "num" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 4094552.8325341567,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3991655.589633622,
+                "50.0" : 4094552.8325341567,
+                "90.0" : 4197450.075434691,
+                "95.0" : 4197450.075434691,
+                "99.0" : 4197450.075434691,
+                "99.9" : 4197450.075434691,
+                "99.99" : 4197450.075434691,
+                "99.999" : 4197450.075434691,
+                "99.9999" : 4197450.075434691,
+                "100.0" : 4197450.075434691
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3991655.589633622,
+                    4197450.075434691
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
